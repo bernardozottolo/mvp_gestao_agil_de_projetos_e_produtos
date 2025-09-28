@@ -17,7 +17,11 @@ Facilitar a negociação de criptomoedas de forma rápida, transparente e intuit
 - Integração básica com PIX (simulada).  
 - Confirmação simples da transação.  
 
-*(Funcionalidades futuras: histórico de transações, cadastro de usuários, suporte a outras criptomoedas.)*
+### Funcionalidades Futuras
+- Histórico de transações.  
+- Cadastro/login de usuários.  
+- Suporte a outras criptomoedas (ETH, USDT).  
+- Relatórios de transações.  
 
 ---
 
@@ -28,7 +32,8 @@ Facilitar a negociação de criptomoedas de forma rápida, transparente e intuit
 ---
 
 ## 📂 Estrutura do Repositório
-meu-mvp-cripto/
+
+mvp_gestao_agil_de_projetos_e_produtos/
 │
 ├── wireframes/ # imagens exportadas do Figma
 │ ├── pagina-inicial.png
@@ -42,25 +47,45 @@ meu-mvp-cripto/
 │
 ├── sprint-backlog.pdf # backlog da sprint exportado do Jira
 │
-└── video-apresentacao.mp4 # showcase de 2 a 4 min (ou link no README)
+└── apresentacao_mvp_gestao_agil_de_produtos_e_projetos.mp4 # showcase gravado (também disponível no YouTube)
 
 ---
 
 ## 🎯 Lean Inception & MVP Canvas
 A Lean Inception e o MVP Canvas foram desenvolvidos no **Miro**.  
 
-👉 [Clique aqui para acessar o board](https://miro.com/app/board/uXjVJCTUKgc=/?share_link_id=485785436671)  
-
-*(Substitua o link acima pelo seu link real do board no Miro)*  
+👉 [Acesse aqui o board do Miro](https://miro.com/app/board/uXjVJCTUKgc=/?share_link_id=485785436671)  
 
 ---
 
-## 📊 Entregas previstas
-- **Lean Inception + MVP Canvas** → Miro + `canvas-url.txt`  
-- **Backlog do Produto** (Jira → PDF)  
-- **Backlog da Sprint** (Jira → PDF)  
-- **Wireframes** (Figma → imagens)  
-- **Vídeo de Apresentação** (2 a 4 minutos)  
+## 📊 Backlogs
+
+Os backlogs foram organizados no **Jira** e exportados em PDF para este repositório.
+
+- [Product Backlog](./product-backlog.pdf) → contém épicos, features e histórias de usuário (com estimativas e critérios de aceitação).  
+- [Sprint Backlog](./sprint-backlog.pdf) → contém as histórias selecionadas para a Sprint 1, detalhadas e estimadas.  
+
+---
+
+## 🎨 Wireframes
+
+Os wireframes foram criados no **Figma** para representar o fluxo principal do MVP.  
+Estão disponíveis na pasta [`/wireframes`](./wireframes).  
+
+Fluxo contemplado:  
+1. Página inicial com cotação em tempo real.  
+2. Tela de compra (R$ → BTC).  
+3. Tela de venda (BTC → R$).  
+4. Tela de confirmação (PIX simulado).  
+
+---
+
+## 📽️ Vídeo de Apresentação
+
+O showcase do projeto foi gravado em vídeo (2 a 4 minutos).  
+
+- Arquivo: [`video-apresentacao.mp4`](./apresentacao_mvp_gestao_agil_de_produtos_e_projetos.mp4)  
+- YouTube: [Assistir ao vídeo](https://youtu.be/T5LXpSPhqj0)  
 
 ---
 
@@ -70,6 +95,10 @@ Em versões futuras poderá incluir um protótipo navegável com frontend simple
 
 ---
 
-## 📽️ Apresentação
-(O link ou vídeo será adicionado na entrega final)
+## ✅ Entregas
+- Lean Inception + MVP Canvas (Miro + `canvas-url.txt`)  
+- Backlog do Produto (Jira → `product-backlog.pdf`)  
+- Backlog da Sprint (Jira → `sprint-backlog.pdf`)  
+- Wireframes (Figma → `/wireframes`)  
+- Vídeo de Apresentação (`apresentacao_mvp_gestao_agil_de_produtos_e_projetos.mp4` + link YouTube)  
 
